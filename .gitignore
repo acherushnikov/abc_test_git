@@ -1,0 +1,119 @@
+# macOS
+## Вспомогательные системные файлы.
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Файл "Icon" должен сопровождаться двумя завершающими символами '\r'.
+Icon
+
+
+## Файлы кеша предпросмотра
+._*
+
+## Файлы, которые могут отображаться в корневом томе.
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+## Каталоги, которые могли быть созданы на удаленном AFP-ресурсе.
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# CMake
+cmake-build-debug/
+
+# Xcode
+## Пользовательские настройки.
+xcuserdata/
+
+## Состояние проверок воркспейса
+IDEWorkspaceChecks.plist
+
+### Оставлено для совместимости с Xcode 8 и более ранними версиями.
+### Начиная с Xcode 9, эти файлы добавлять в .gitignore не требуется.
+*.xcscmblueprint
+*.xccheckout
+
+# AppCode
+## Пользовательские настройки.
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+
+## Пересоздаваемые файлы.
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+## Файлы, создаваемые при сборке проекта.
+DerivedData/
+*.hmap
+*.ipa
+Magic/*.pyc
+Magic/**/*.h
+Magic/**/*.m
+
+## Файлы, генерируемые с помощью Sourcery для тестов
+*.generated.swift
+
+### dSYM
+###
+### Не включаем в .gitignore и сохраняем в репозитории файлы dSYM для символицирования сборочных артефактов.
+### Решение кажется временным, при полной интеграции с fastlane хранение артефактов в репозитории не требуется.
+
+# *.dSYM.zip
+# *.dSYM
+
+# Carthage
+#
+
+*.bcsymbolmap
+*/Carthage/Checkouts/
+
+# Sberthage
+## Файлы менеджера зависимостей Сбера
+*/Sberthage
+Sberbank.xcworkspace/contents.xcworkspacedata
+Sberbank.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# fastlane
+#
+# Рекомендуется не сохранять скриншоты приложения в git-репозитории.
+# Вместо этого стоит использовать fastlane для пересоздания скриншотов тогда, когда это будет нужно.
+# Больше информации по fastlane и git:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+testRunConfig/
+testReports/
+buildLogs/
+buildSim/
+buildDevice/
+buildSimLint/
+buildUniversalDerivedData/
+oclintReports/
+
+# Visual Studio Code
+.vscode/*
+
+# OCLint
+compile_commands.json
